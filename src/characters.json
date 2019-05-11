@@ -1,74 +1,74 @@
 [
     {
     "id": 0,
-    "name": "Galactica",
-    "image": "assets/images/battlestar-galactica-photo-u1.jpeg",
+    "name": "Audrey",
+    "image": "./assets/images/audrey.jpg",
     "isClicked": false
     },
     {
     "id": 1,
-    "name": "Dreadnaught",
-    "image": "assets/images/Dreadnaught.jpg",
+    "name": "Bob",
+    "image": "assets/images/bob.jpg",
     "isClicked": false
     },
     {
     "id": 2,
-    "name": "Enterprise",
-    "image": "assets/images/Enterprise.jpeg",
+    "name": "Cooper",
+    "image": "assets/images/cooper.jpeg",
     "isClicked": false
     },
     {
     "id": 3,
-    "name": "Falcon",
-    "image": "assets/images/Falcon.jpg",
+    "name": "Diane",
+    "image": "assets/images/diane.jpg",
     "isClicked": false
     },
     {
     "id": 4,
-    "name": "Firefly",
-    "image": "assets/images/Firefly-class_transport_ship.jpg",
+    "name": "Doc",
+    "image": "assets/images/doc.jpg",
     "isClicked": false
     },
     {
     "id": 5,
-    "name": "LastStarFighter",
-    "image": "assets/images/LastStarFighter.jpg",
+    "name": "Donna",
+    "image": "assets/images/donna.jpg",
     "isClicked": false
     },
     {
     "id": 6,
-    "name": "slave1",
-    "image": "assets/images/slave1.jpg",
+    "name": "Ed",
+    "image": "assets/images/ed.png",
     "isClicked": false
     },
     {
     "id": 7,
-    "name": "Voyager",
-    "image": "assets/images/star-trek-voyager.jpg",
+    "name": "Jacoby",
+    "image": "assets/images/jacboy.jpeg",
     "isClicked": false
     },
     {
     "id": 8,
-    "name": "Tardis",
-    "image": "assets/images/Tardis.jpeg",
+    "name": "James",
+    "image": "assets/images/james.jpeg",
     "isClicked": false
     },
     {
     "id": 9,
-    "name": "Thunderfighter",
-    "image": "assets/images/Thunderfighter.jpg",
+    "name": "Norma",
+    "image": "assets/images/norma.jpg",
     "isClicked": false
     },
     {
     "id": 10,
-    "name": "USA",
-    "image": "assets/images/USA.jpg",
+    "name": "Shelly",
+    "image": "assets/images/shelly.png",
     "isClicked": false
     },
     {
     "id": 11,
-    "name": "Navigator",
-    "image": "assets/images/Navigator.jpeg",
+    "name": "The Arm",
+    "image": "assets/images/theArm.jpg",
     "isClicked": false
     }
     ]
