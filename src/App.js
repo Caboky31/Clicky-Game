@@ -9,9 +9,8 @@ import Images from './components/Images'
 class App extends Component {
   state =  {
 
-  }
-  click = () => {
-    alert("click");
+  
+  
   }
   render() {
     return (
@@ -19,10 +18,10 @@ class App extends Component {
       <Navbar/>
       <Jumbotron/>
       <Container>
-        test
+      
   
         <Images 
-          handleClick = {this.click}
+          
         />
       </Container>
      

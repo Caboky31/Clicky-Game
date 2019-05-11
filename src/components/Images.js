@@ -1,10 +1,13 @@
 import React from "react";
 
-const Images = props => {
-    return (
-<div>
-    <button onClick={props.handleClick}> Click this button </button>
-</div>    )
-}
+
+const Images = ({ name, image, onClick}) =>
+  <img
+    className = "click-item img-fluid"
+    src = {image}
+    alt = {name}
+    name = {name}
+    onClick = { () => onClick(name) }
+  />;
 
 export default Images;
