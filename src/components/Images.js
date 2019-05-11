@@ -8,6 +8,6 @@ const Images = ({ name, image, onClick}) =>
     alt = {name}
     name = {name}
     onClick = { () => onClick(name) }
-  />;
+  />
 
 export default Images;
