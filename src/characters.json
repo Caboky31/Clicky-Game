@@ -2,7 +2,7 @@
     {
     "id": 0,
     "name": "Audrey",
-    "image": "./assets/images/audrey.jpg",
+    "image": "assets/images/audrey.jpg",
     "isClicked": false
     },
     {
@@ -14,7 +14,7 @@
     {
     "id": 2,
     "name": "Cooper",
-    "image": "assets/images/cooper.jpeg",
+    "image": "assets/images/cooper.jpg",
     "isClicked": false
     },
     {
@@ -26,7 +26,7 @@
     {
     "id": 4,
     "name": "Doc",
-    "image": "assets/images/doc.jpg",
+    "image": "assets/images/doc.jpeg",
     "isClicked": false
     },
     {
@@ -44,7 +44,7 @@
     {
     "id": 7,
     "name": "Jacoby",
-    "image": "assets/images/jacboy.jpeg",
+    "image": "assets/images/jacoby.jpeg",
     "isClicked": false
     },
     {

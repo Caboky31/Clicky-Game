@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = (props)  => {
 return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="">Clicky Game</a>
+  <a className="navbar-brand" href="index.html">Clicky Game</a>
  
   <nav className = "navbar-brand">
     <ul>

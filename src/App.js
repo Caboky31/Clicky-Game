@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import './App.css';
-import Navbar from './components/Navbar';
-import Jumbotron from './components/Jumbotron';
-import Container from './components/Container';
-import Images from './components/Images'
+import Navbar from './components/navbar/Navbar';
+import Jumbotron from './components/jumbotron/Jumbotron';
+import Container from './components/container/Container';
+import Images from './components/images/Images'
 import characters from "./characters.json";
+import './App.css';
 
 class App extends Component {
   state = {
