@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from './components/navbar/Navbar';
 import Jumbotron from './components/jumbotron/Jumbotron';
-import Container from './components/container/Container';
+// import Container from './components/container/Container';
 import Images from './components/images/Images'
 import characters from "./characters.json";
 import './App.css';
@@ -52,7 +52,7 @@ class App extends Component {
   wrongChoice = () => {
 
     this.setState({ score: 0, message: "you already picked that person! Right?" })
-    const updatedCharacter = this.state.characters.map(uc => uc.isClicked === (true) ? { ...uc, isClicked: false } : uc)
+    const updatedCharacter = this.state.characters.map(userChoice => userChoice.isClicked === (true) ? { ...userChoice, isClicked: false } : userChoice)
     return updatedCharacter
 
   }
@@ -61,7 +61,7 @@ class App extends Component {
 
     if (this.state.score + 1 === this.state.maxScore) {
       this.setState({ score: 0, topScore: 0 })
-      const updatedCharacter = correctCharacter.map(uc => (true) ? { ...uc, isClicked: false } : uc)
+      const updatedCharacter = correctCharacter.map(userChoice => (true) ? { ...userChoice, isClicked: false } : userChoice)
       return updatedCharacter
     } else {
       return correctCharacter
@@ -72,17 +72,17 @@ class App extends Component {
   randomCharacter = (name) => {
 
     var resetNeeded = false;
-    const characters = this.state.character.map(uc => {
-      if (uc.name === name) {
-        if (uc.isClicked === false) {
+    const characters = this.state.character.map(userChoice => {
+      if (userChoice.name === name) {
+        if (userChoice.isClicked === false) {
           this.correctChoice()
-          return { ...uc, isClicked: true }
+          return { ...userChoice, isClicked: true }
         } else {
           resetNeeded = true
-          return { ...uc, isClicked: false }
+          return { ...userChoice, isClicked: false }
         }
       }
-      return uc
+      return userChoice
     })
     if (resetNeeded) {
       this.setState({
@@ -103,7 +103,7 @@ class App extends Component {
         image={character.image}
         name={character.name}
         key={character.id}
-        onClick={this.randomizeCharacter}
+        handleClick={this.randomizeCharacter}
       />
     );
   }
@@ -119,15 +119,10 @@ class App extends Component {
         />
         
         <Jumbotron />
-        <Container/>
-
-       
+   
             {this.renderCharacter()} 
             </div>
-         
-    
         );
-      
       }
     }
     
